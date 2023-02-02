@@ -67,10 +67,12 @@ const Home = () => {
                     <p className='text-base w-3/4 text-justify'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     </p>
+                    <Link to= {`/productCategory/headphones`}>
                     <span className='text-[#15153D] text-lg sm:text-2xl font-normal border-2 border-[#15153D] 
                                 px-14 py-[10px]'>
                         Start Exploring 
-                </span>
+                    </span>
+                    </Link>
             </div>
         </div>
   
